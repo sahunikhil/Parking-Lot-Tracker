@@ -137,7 +137,7 @@ def main():
             park = parking_lot.park_vehicle(vehicle)
             if park == -2:
                 print(f"Vehicle {vehicle} is already parked.")
-            if park == -1:
+            elif park == -1:
                 print("All the spots are occupied. No spot available.")
             else:
                 print(f"Vehicle {vehicle} parked at : {park}")
